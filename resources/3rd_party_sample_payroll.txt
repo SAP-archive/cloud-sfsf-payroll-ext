@@ -1,8 +1,9 @@
 Description=3rd Party Payroll provider OData API
 Name=3rd_party_sample_payroll
-URL=https\://samplepayroll.us1.hana.ondemand.com/Payroll
+URL=https\://samplepayroll.hana.ondemand.com/
 ProxyType=Internet
 TrustAll=true
 Type=HTTP
 CloudConnectorVersion=1
-Authentication=NoAuthentication
+Authentication=BasicAuthentication
+User=<SAP ID User - P/S user typically>
