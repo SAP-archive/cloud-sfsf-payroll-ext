@@ -1,4 +1,4 @@
-Description=SuccessFactors Core OData API
+Description=SuccessFactors Core OData sample open API
 Type=HTTP
 TrustAll=true
 Authentication=BasicAuthentication
